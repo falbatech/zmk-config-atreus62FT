@@ -1,0 +1,11 @@
+file_format: "1"
+id: atreus62
+name: Atreus62 FT
+type: shield
+url: https://github.com/profet23/atreus62
+requires: [pro_micro]
+features:
+  - keys
+  - studio
+siblings:
+  - atreus62
