@@ -1,22 +1,12 @@
-/*
- * TEMPORARY DEBUG KEYMAP — every position = letter A
- * If pressing ANY key produces "a" in editor, matrix works; revert to default keymap.
- * If NOTHING happens — matrix itself is not scanning; deeper debug needed.
- */
-
 #include <behaviors.dtsi>
-#include <behaviors/studio_unlock.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/outputs.h>
 
 / {
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "Base";
-            bindings = <
+            bindings = 
                 &kp A &kp A &kp A &kp A &kp A &kp A                 &kp A &kp A &kp A &kp A &kp A &kp A
                 &kp A &kp A &kp A &kp A &kp A &kp A                 &kp A &kp A &kp A &kp A &kp A &kp A
                 &kp A &kp A &kp A &kp A &kp A &kp A                 &kp A &kp A &kp A &kp A &kp A &kp A
